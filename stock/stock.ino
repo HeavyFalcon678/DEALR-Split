@@ -181,7 +181,7 @@ NHY3274TH is a custom color sensor that uses a custom library.
 #include <Adafruit_LEDBackpack.h> // Used for the 14-segment display.
 #include <EEPROM.h>               // Helps us save information to EEPROM, which is like a tiny hard drive on the Nano. This lets us save values even when power-cycling.
 #include <avr/pgmspace.h>         // Lets us store values to flash memory instead of SRAM. Filling SRAM completely causes issue with program operation.
-#include <NHY3274TH.h>            // A custom library for interacting with the color sensor.
+#include <NHY3274TH.h>           // A custom library for interacting with the color sensor.
 
 #pragma endregion LIBRARIES
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
